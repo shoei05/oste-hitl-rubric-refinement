@@ -1,0 +1,257 @@
+# OSTE Evaluation Rubric
+# 5-point scale
+
+rubric_id: detailed_rubric_u1_u20_strict_v3
+version: strict_v3_hitl_2026-04-24
+
+global_evaluation_guidelines:
+  scoring_scale:
+    5: "Strongly agree - Outstanding teaching; exemplary for other instructors."
+    4: "Somewhat agree - Above-average teaching."
+    3: "Neutral - Average teaching."
+    2: "Somewhat disagree - Many issues in teaching."
+    1: "Strongly disagree - Serious issues that hinder training."
+    X: "Not applicable - No opportunity to observe."
+
+  time_management:
+    time_limit: "5 minutes"
+    overtime_handling: "If it exceeds 5 minutes, score only what was completed."
+
+  assessment_criteria:
+    score_1: "There was a chance to perform but the instructor did not."
+    score_X: "There was no chance to perform that behavior in the role-play."
+
+rubric_items:
+  U1:
+    title: "Actively tried to listen to the learner"
+    category: "Elicit learner views"
+    criteria:
+      5: "Consistently encouraged and deeply listened (learner talk ratio >=40%)."
+      4: "Clear active listening posture (30-40%)."
+      3: "Basic listening posture (20-30%) or listened too long and ran short on time."
+      2: "Insufficient listening posture (10-20%)."
+      1: "Hardly listened (<10%)."
+      X: "No chance for learner to speak."
+
+  U2:
+    title: "Asked questions to deepen understanding"
+    category: "Elicit learner views"
+    criteria:
+      5: "Asked good probing questions 2-3 times."
+      4: "Asked 1-2 probing questions."
+      3: "Questions were excessive (4+) or superficial."
+      2: "Insufficient questioning."
+      1: "Did not ask questions to deepen understanding."
+      X: "No chance to ask questions."
+
+  U3:
+    title: "Asked why the learner thought so"
+    category: "Check reasoning"
+    description: "Post-presentation why-questions"
+    criteria:
+      5: "Checked reasoning appropriately (1-2 why-questions within 60-120 seconds after presentation)."
+      4: "Checked reasoning (why-question within 180 seconds)."
+      3: "Checked reasoning but excessive (3+) or slow."
+      2: "Insufficient check of reasoning."
+      1: "Did not check reasoning (missed clear chances)."
+      X: "Learner did not present concrete reasoning."
+
+  U4:
+    title: "Affirmed what was correct"
+    category: "Acknowledge correct points"
+    criteria:
+      5: "Specific affirmation of correct thinking or behavior (2-3 high-quality affirmations)."
+      4: "Appropriately affirmed correct points (1-2)."
+      3: "Affirmed but excessive (4+, formulaic) or vague."
+      2: "Affirmation insufficient."
+      1: "No affirmation."
+      X: "No correct content to affirm."
+
+  U5:
+    title: "Pointed out areas to improve"
+    category: "Correct mistakes"
+    criteria:
+      5: "Constructively and specifically pointed out improvements and how to fix them (1-2 points)."
+      4: "Appropriately pointed out improvements (1-2 points)."
+      3: "Pointed out improvements but excessive (3+) or vague."
+      2: "Inappropriate or insufficient pointing out."
+      1: "No appropriate pointing out."
+      X: "Nothing to improve."
+
+  U6:
+    title: "Provided missing knowledge"
+    category: "Correct mistakes"
+    criteria:
+      5: "Provided necessary knowledge precisely (2-3 key items)."
+      4: "Provided missing knowledge appropriately (1-2 items)."
+      3: "Provided knowledge but excessive (4+) or inappropriate."
+      2: "Knowledge provision insufficient."
+      1: "No knowledge provided."
+      X: "No obvious knowledge gap."
+
+  U7:
+    title: "Asked the learner to prioritize more likely or urgent diagnoses"
+    category: "Correct mistakes"
+    description: "Teaching format acceptable"
+    criteria:
+      5: "Clear, educational guidance on prioritizing diagnoses (1-2 times with rationale)."
+      4: "Appropriate guidance on prioritization."
+      3: "Guidance given but excessive or unclear."
+      2: "Prioritization guidance insufficient."
+      1: "No guidance on prioritization despite opportunity."
+      X: "Differential diagnosis not discussed."
+
+  U8:
+    title: "Explained general principles with rationale"
+    category: "Present general principles"
+    criteria:
+      5: "Presented general principles with rationale clearly (1-2 key points)."
+      4: "Appropriately explained general principles with rationale."
+      3: "Explained but excessive (3+) or rationale vague."
+      2: "Rationale insufficient."
+      1: "No rationale or no general principles."
+      X: "No chance to share general principles."
+
+  U9:
+    title: "Taught general principles focused on the learner's concerns"
+    category: "Present general principles"
+    scoring_note: "A score of 5 requires evidence of eliciting concerns and agreeing on focus. Without evidence, cap at 4."
+    criteria:
+      5: "Explicitly elicited the learner's concerns, agreed on focus, presented general principles narrowed to 1-2 points, and confirmed understanding."
+      4: "Presented general principles aligned with learner concerns, but evidence of explicit elicitation, agreement on focus, or understanding check is lacking."
+      3: "Teaching given but scattered or excessive; weak alignment with learner concerns."
+      2: "Touched on learner concerns, but content was misaligned or one-sided with insufficient consideration."
+      1: "Ignored learner concerns when presenting general principles."
+      X: "Learner's concerns could not be determined from the record or conversation."
+
+  U10:
+    title: "Explained key points and reasons clearly"
+    category: "Present general principles"
+    criteria:
+      5: "Explained key points clearly (1-2 points) with reasons."
+      4: "Appropriately explained key points and reasons."
+      3: "Explained but excessive (3+) or unclear."
+      2: "Explanation insufficient."
+      1: "No explanation."
+      X: "No chance to explain key points."
+
+  U11:
+    title: "Provided actionable advice for the immediate problem"
+    category: "Feedback quality"
+    criteria:
+      5: "Specific, practical advice (1-2 high-quality items)."
+      4: "Provided effective advice."
+      3: "Advice given but excessive (3+) or generic."
+      2: "Advice insufficient or low value."
+      1: "No effective advice."
+      X: "No clear problem to address."
+
+  U12:
+    title: "Made the instructor's thinking process visible"
+    category: "Feedback quality"
+    criteria:
+      5: "Clearly revealed the instructor's thinking process; easy to follow."
+      4: "Made the thinking process visible."
+      3: "Showed the process but it was verbose or unclear."
+      2: "Process presentation insufficient."
+      1: "Did not show the thinking process."
+      X: "No chance to show the thinking process."
+
+  U13:
+    title: "Tailored feedback to the learner's own thinking, reasoning, intent, or self-assessment"
+    category: "Feedback quality"
+    scoring_note: "A score of 5 requires at least 2 of: eliciting thinking through questioning, confirming understanding through summarizing or paraphrasing, and individualization."
+    criteria:
+      5: "Elicited the learner's thinking through questioning, confirmed understanding by summarizing, delivered individualized feedback aligned to that thinking, and agreed on specific next actions."
+      4: "Addressed the learner's thinking in feedback, but evidence of elicitation, summary confirmation, individualization, or action agreement is lacking."
+      3: "Feedback given but the link to learner thinking is unclear."
+      2: "Insufficient consideration of learner thinking; predominantly directive or evaluative."
+      1: "Ignored or dismissed learner thinking and presented conclusions unilaterally."
+      X: "Learner thinking was not expressed, and the instructor did not attempt to elicit it; unable to judge."
+
+  U14:
+    title: "Feedback was specific and detailed"
+    category: "Feedback quality"
+    description: "Observation-based, specific, actionable, and focused feedback"
+    scoring_note: "A score of 5 requires observed facts, an action proposal, and an understanding check or agreement. Seemingly specific language alone does not warrant a 5."
+    criteria:
+      5: "Feedback includes all of: an action plan, explanation grounded in observed facts, and understanding check or agreement."
+      4: "Feedback is specific but lacks one of: action plan, explanation grounded in observed facts, or understanding check/agreement."
+      3: "Feedback given but abstract; unclear what the learner should do next."
+      2: "Insufficient specificity; little information to drive improvement."
+      1: "Abstract and lacking detail; does not lead to behavioral change."
+      X: "No chance to give feedback."
+
+  U15:
+    title: "Limited feedback to an appropriate number of items and prioritized them"
+    category: "Feedback quality"
+    description: "Best is 2-3 items; 1 item is acceptable; too many items reduce learning effectiveness."
+    scoring_note: "A score of 5 requires, in addition to 2-3 items, explicit prioritization, rationale, or next actions. Number alone caps at 4."
+    criteria:
+      5: "Limited to 2-3 items with the most important item explicitly identified and rationale or specific next actions provided."
+      4: "Limited to 1-3 items, but prioritization, rationale, or specific next actions were not explicit or were weak."
+      3: "4 items (somewhat many)."
+      2: "5-6 items (too many) or 0 items (no feedback)."
+      1: "7 or more items, or listing-dominated feedback with no focus or prioritization."
+      X: "No chance to give feedback."
+
+  U16:
+    title: "Provided a safe learning environment"
+    category: "Creating environment"
+    scoring_note: "A score of 5 requires at least 2 proactive safety-building behaviors or evidence of appropriate handling of a risk moment. A calm atmosphere alone caps at 4."
+    criteria:
+      5: "Sustained proactive behaviors to build psychological safety, with evidence of reframing mistakes or uncertainties as learning opportunities rather than criticizing."
+      4: "Learning environment was appropriate with no unsafe elements, but evidence of proactive safety-building behaviors or handling of mistakes is insufficient."
+      3: "Basically safe but lacked efforts to reduce tension or encourage participation."
+      2: "Safety of the learning environment insufficient."
+      1: "Unsafe learning environment."
+      X: "Insufficient information to judge the environment."
+
+  U17:
+    title: "Created an approachable atmosphere for consultation"
+    category: "Creating environment"
+    scoring_note: "A score of 5 requires evidence of specific actions to invite consultation, such as prompting, offering availability, or setting time. A positive atmosphere alone caps at 4."
+    criteria:
+      5: "Proactively invited consultation and, when consulted, welcomed it without interrupting and connected the learner to support; evidence present."
+      4: "Appeared approachable, but evidence of specific prompting actions or consultation-handling is insufficient."
+      3: "Consultation was possible but entry points were weak."
+      2: "Approachability insufficient."
+      1: "Hard to consult."
+      X: "No consultation opportunity or scene; unable to judge."
+
+  U18:
+    title: "Showed respect to the learner"
+    category: "Creating environment"
+    description: "Treated the resident as a fellow physician"
+    scoring_note: "A score of 5 requires, beyond respectful language, evidence of recognition as a physician, such as adopting the learner's opinion, assigning a role, or shared decision-making. Polite language alone caps at 4."
+    criteria:
+      5: "Consistently respectful, with concrete actions treating the learner as a fellow physician. Corrected errors or disagreements constructively without personal criticism."
+      4: "Showed appropriate respect, but evidence of recognition as a physician or handling of disagreements is insufficient."
+      3: "Basic respect shown, but hierarchical tone was prominent or manner/address was inconsistent."
+      2: "Respect insufficient."
+      1: "Disrespectful."
+      X: "Limited chance to show respect; unable to judge."
+
+  U19:
+    title: "Showed enthusiasm for teaching"
+    category: "Creating environment"
+    description: "Evaluator's subjective sense that the instructor wanted the learner to grow"
+    criteria:
+      5: "Consistent strong enthusiasm for learner growth."
+      4: "Appropriate enthusiasm felt."
+      3: "Basic enthusiasm felt."
+      2: "Enthusiasm insufficient or mechanical."
+      1: "No enthusiasm felt; indifferent or perfunctory."
+      X: "Insufficient chance to assess enthusiasm."
+
+  U20:
+    title: "Overall feedback ability was sufficient"
+    category: "Overall"
+    description: "Whether the instructor could independently deliver feedback"
+    criteria:
+      5: "Could deliver feedback alone with no issues; exemplary for others."
+      4: "Sufficient ability to deliver feedback independently."
+      3: "Basic feedback ability present."
+      2: "Feedback ability problematic; needs improvement."
+      1: "Insufficient ability; cannot teach alone."
+      X: "Substantially insufficient information for an overall judgment."

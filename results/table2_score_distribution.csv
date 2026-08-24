@@ -1,0 +1,3 @@
+rubric_version,model_access,video_runs,item_scores,mean,sd,score_1_n,score_1_pct,score_2_n,score_2_pct,score_3_n,score_3_pct,score_4_n,score_4_pct,score_5_n,score_5_pct,score_4_or_5_pct
+Second revised rubric,Gemini 2.5 Flash via OpenRouter,320,6400,4.54,0.69,58,0.9,20,0.3,314,4.9,2047,32.0,3961,61.9,93.9
+Strict third rubric,Gemini 2.5 Flash via OpenRouter,320,6400,4.24,0.83,190,3.0,82,1.3,261,4.1,3343,52.2,2524,39.4,91.7
