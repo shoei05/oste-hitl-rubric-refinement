@@ -5,6 +5,7 @@ __pycache__/
 venv/
 .env
 .env.*
+generated/
 
 # Confidential/raw research materials
 private/

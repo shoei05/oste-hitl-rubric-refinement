@@ -14,7 +14,7 @@ import statistics
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 RESULTS = ROOT / "results"
-FIGURES = ROOT / "figures"
+FIGURES = ROOT / "generated" / "figures"
 
 VERSIONS = {
     "v2": "Second revised rubric",
@@ -204,7 +204,6 @@ def main() -> None:
     write_csv(RESULTS / "table3_item_decreases.csv", table3, list(table3[0]))
     write_csv(RESULTS / "figure2_score_distribution_source.csv", figure2, list(figure2[0]))
     write_csv(RESULTS / "figure3_item_mean_decreases_source.csv", all_items, list(all_items[0]))
-    write_csv(RESULTS / "item_statistics_all.csv", all_items, list(all_items[0]))
     make_figures(figure2, all_items)
     print("Validation and reproduction completed.")
 

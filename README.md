@@ -11,7 +11,7 @@ Data, rubrics, prompts, and reproducible analysis code for:
 - `prompts/`: verbatim scoring and pipeline prompts, user-message structure, output format, and inference settings
 - `analysis/`: validation and reproduction script
 - `results/`: source data for manuscript Tables 2-3 and Figures 2-3
-- `figures/`: manuscript figures and figures regenerated from the public score files
+- `figures/`: the three manuscript figures
 
 ## Data structure
 
@@ -29,7 +29,7 @@ python -m pip install -r requirements-analysis.txt
 python analysis/reproduce_results.py
 ```
 
-The second command writes the table/figure source CSV files under `results/` and regenerated Figures 2-3 under `figures/`.
+The second command writes the table/figure source CSV files under `results/` and regenerated Figures 2-3 under `generated/figures/`.
 
 ## Inference conditions
 
